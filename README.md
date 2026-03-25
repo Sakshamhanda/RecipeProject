@@ -10,7 +10,6 @@ The project displays popular Indian sweets with their ingredients and step-by-st
 - Structuring a webpage using HTML
 - Styling using CSS
 - Creating a clean and responsive layout
-- Displaying recipes in an organized format
 
 🚀 Features
 
