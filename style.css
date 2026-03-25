@@ -30,8 +30,8 @@ a{
 }
 .navbar{
     width: 100vw;
-    background-image: linear-gradient( 109.6deg,  rgba(163,213,255,1) 11.3%, rgba(4,137,137,1) 86.7% );
-    }
+    background-image: radial-gradient( circle 762px at 11.2% 17.8%,  rgba(253,243,106,1) 0%, rgba(255,153,1,1) 89.2% );
+}
 .navlogo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.4rem;
@@ -44,7 +44,7 @@ a{
 }
 footer{
     width: 100%;
-    background-image: linear-gradient( 109.6deg,  rgba(163,213,255,1) 11.3%, rgba(4,137,137,1) 86.7% );
+    background-image: radial-gradient( circle 762px at 11.2% 17.8%,  rgba(253,243,106,1) 0%, rgba(255,153,1,1) 89.2% );
     text-align: center;
     min-height: 30px;
     font-size: 1.5rem;
@@ -52,18 +52,13 @@ footer{
     color: aliceblue;
 }
 .contentbox{
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
-    /* border: 2px solid black; */
     margin: auto;
     width: 50%;
     gap: 100px;
     padding: 40px;
-    /* background-color: azure; */
-    background: #83a4d4; 
-    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
-    background: linear-gradient(to right, #b6fbff, #83a4d4);
+    background-image: radial-gradient( circle 232px at 10% 20%,  rgba(251,238,115,0.74) 0%, rgba(241,195,87,0.74) 90% );
     box-shadow: 1px 1px 30px black;
     border-radius: 10px;
 }
@@ -73,8 +68,8 @@ footer{
     justify-content: space-around;
 }
 .rightbox img{
-    height: 275px;
-    width: 270px;
+    height: auto;
+    width: 100%;
     border-radius: 15px;
 }
 .leftbox{
@@ -88,6 +83,7 @@ footer{
     transition: all 300ms;
 }
 .rightbox{
+    width: 300px;
     position: relative;
     overflow: none;
     display: flex;
